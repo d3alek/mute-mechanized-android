@@ -44,7 +44,7 @@
 ; Port A has a microphone, piezo and 3 body LEDs.
 ; The LEDs are low active
 
-.equ PORT_A_OUTPUTS = 0x6E      ; Port A input / output PIN configuration
+.equ PORT_A_OUTPUTS = 0x4E      ; Port A input / output PIN configuration
 .equ PORT_A_DATA    = 0x6E      ; Port A output / pullup configuration
  
 .equ MIC        = 0             ; Sound in
